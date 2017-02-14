@@ -27,7 +27,7 @@ class ComposerCommands
         // from http://stackoverflow.com/a/20808687/3133038
 
         if ($returnCode !== 0) {
-            throw new Exception('Command failed');
+            //throw new \Exception('Command failed');
         }
 
         return $output->fetch();
