@@ -27,6 +27,8 @@ $packages = ComposerPackages::index();
 
 ?>
 
+<p>Memory limit: <?= ini_get('memory_limit') ?></p>
+
 <?php if (!empty($message)): ?>
 <pre><?= htmlspecialchars($message) ?></pre>
 <?php endif; ?>
